@@ -1,15 +1,10 @@
 ﻿# Proxima PDF Server
+PDF hosting with 10-minute cache
 
-Simple PDF hosting with 10-minute cache for Proxima.gr
+## Setup
+1. Clone this repository
+2. Run the setup script
+3. Upload your PDFs to /var/www/pdf.proxima.gr/downloads/
 
-## Setup Instructions
-
-1. Upload the PDF:
-   ```bash
-   scp your-pdf.pdf root@your-server:/var/www/pdf.proxima.gr/downloads/
-   ```
-
-2. Access your PDF at:
-   ```
-   https://pdf.proxima.gr/downloads/your-pdf.pdf
-   ```
+## Access
+Your PDFs will be available at: https://pdf.proxima.gr/downloads/your-pdf.pdf
